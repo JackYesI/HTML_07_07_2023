@@ -10,10 +10,12 @@ div{
     height: 200px;
     background-color: orange;
     border-radius: 50%;
-    animation: circles 10s;
+    animation: circles 10s ease-in-out 10ms infinite alternate forwards;
     transform: translateX(0%);
 }
-
+div:hover{
+    animation-play-state: paused;
+}
 @keyframes circles{
     0%{
         background-color: orange;

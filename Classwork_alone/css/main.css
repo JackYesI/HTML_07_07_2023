@@ -1,0 +1,11 @@
+/* .p{
+    display: inline-block;
+    width: 90px;
+    height: 10px;
+    background-color: gray;
+    transition: 3s;
+} */
+.p:hover{
+    border-style: double;
+    
+}
